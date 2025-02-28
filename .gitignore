@@ -1,0 +1,30 @@
+# Virtual environment
+tsport_env/
+
+# Data directories, ignore all contents except placeholders
+data/raw/*
+!data/raw/.placeholder
+data/processed/*
+!data/processed/.placeholder
+
+# Models directory, ignore all contents except placeholder
+models/*
+!models/.placeholder
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+*.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+
+# Optional: macOS and Windows files
+.DS_Store
+Thumbs.db
