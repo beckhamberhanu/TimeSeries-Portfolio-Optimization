@@ -52,21 +52,22 @@ TimeSeries-Portfolio-Optimization/
 
 ```
 
-🛠 Installation
-1️⃣ Clone the Repository
+## 🛠 Installation
+
+### 1️⃣ Clone the Repository
 
 ```bash 
 git clone https://github.com/yourusername/TimeSeries-Portfolio-Optimization.git
 cd TimeSeries-Portfolio-Optimization
 
 ```
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 
 ``` bash
 pip install -r requirements.txt
 
 ```
-3️⃣ Set Up Environment Variables (Optional)
+### 3️⃣ Set Up Environment Variables (Optional)
 If needed, create a .env file for API keys or configuration:
 
 ```bash
@@ -91,7 +92,7 @@ python scripts/portfolio_optimization.py
 # Generate visualizations
 python scripts/visualization.py
 ```
-Start the FastAPI Server
+### Start the FastAPI Server
 
 ```bash
 uvicorn main:app --reload
